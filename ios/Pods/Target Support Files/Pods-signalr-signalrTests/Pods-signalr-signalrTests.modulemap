@@ -1,6 +1,0 @@
-module Pods_signalr_signalrTests {
-  umbrella header "Pods-signalr-signalrTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

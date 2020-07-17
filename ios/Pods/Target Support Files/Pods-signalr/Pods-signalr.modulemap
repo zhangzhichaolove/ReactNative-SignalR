@@ -1,6 +1,0 @@
-module Pods_signalr {
-  umbrella header "Pods-signalr-umbrella.h"
-
-  export *
-  module * { export * }
-}
