@@ -3,19 +3,26 @@
  * https://github.com/jonathanzufi/SignalR-react-native-client
 **/
 
-import React from 'react';
+import React, { Component } from 'react';
 import { SafeAreaView} from 'react-native';
 import Signalr from './Signalr'
 
-const App: () => React$Node = () => {
+class App extends Component{
 
-  return (
+componentDidCatch(errorObject,info){
+  console.log(info);
+}
+
+render(){
+  return(
     <>
       <SafeAreaView>
           <Signalr></Signalr>
       </SafeAreaView>
     </>
   );
-};
+}
+}
+
 
 export default App;
